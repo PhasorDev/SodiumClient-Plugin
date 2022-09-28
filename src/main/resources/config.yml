@@ -1,0 +1,21 @@
+#Maximum distance any player has to be from the drop for its name to be visible. The higher this number is, the more the plugin might slow down the server.
+Maximum Distance: 32.0
+
+#How often the drops should be checking for nearby players (in ticks). Warning: Setting this to a number below 5 might cause lag!
+Update Timer: 40
+
+#A list of worlds where items should not have display names shown over the drops.
+Disabled Worlds:
+  - testworld
+  - world1
+
+#Any drop listed below will have its name changed to the written value. A list of the available items can be found here -> https://helpch.at/docs/<MC VERSION>/index.html?org/bukkit/Material.html
+Custom Names:
+  WOODEN_SHOVEL: "&7Wooden Shovel &6&lx1"
+  STONE_SHOVEL: "&7Stone Shovel &6&lx1"
+#Set this to true if you want dropped items to display their names.
+#Set this to false if you want dropped items to display the name of who dropped them.
+Display Name: true
+
+#The color that the name of the person who dropped the item should be.
+Player Name Color: "&e"

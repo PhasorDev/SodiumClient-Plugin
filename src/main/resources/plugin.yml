@@ -1,0 +1,14 @@
+name: SodiumClient
+version: 'InDev'
+main: Ez.SodiumClient.SRC.Setup #Ez.SodiumClient.SRC.Setup
+api-version: 1.19
+authors: [ PHASOR ]
+description: Hi
+commands:
+  sodium:
+    usage: /<command>
+    description: sodiumClent editor
+  itemmerge:
+    permission: dropnames.reload
+    aliases: [ dn, drops ]
+    usage: "Usage: /dropnames reload"
