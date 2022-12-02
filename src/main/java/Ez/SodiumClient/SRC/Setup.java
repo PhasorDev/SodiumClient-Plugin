@@ -33,13 +33,6 @@ import java.util.stream.Collectors;
 
 public final class Setup extends JavaPlugin implements Listener {
 
-    /*@Override
-    public void onEnable() {
-        // Plugin startup logic
-        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[SodiumClient] Plugin Enable");
-        register();
-        saveDefaultConfig();
-    }
 
     public void register() {
         getCommand("sodium").setExecutor(new SodiumClient());
